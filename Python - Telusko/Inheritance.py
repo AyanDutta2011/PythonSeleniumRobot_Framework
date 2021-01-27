@@ -1,3 +1,5 @@
+print("Hello")
+
 class A:
     def feature1(self):
         print("1 is working...")
