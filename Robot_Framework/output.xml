@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.8.0 on win32)" generated="20210118 18:31:27.034" rpa="false">
+<suite id="s1" name="Hisu" source="C:\Users\Ayan Dutta\PycharmProjects\Automation\Robot_Framework\hisu.robot">
+<test id="s1-t1" name="TC2">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Ayan2</arg>
+</arguments>
+<status status="PASS" starttime="20210118 18:31:27.378" endtime="20210118 18:31:27.378"></status>
+</kw>
+<tags>
+<tag>Reg</tag>
+</tags>
+<status status="PASS" starttime="20210118 18:31:27.378" endtime="20210118 18:31:27.378" critical="yes"></status>
+</test>
+<test id="s1-t2" name="TC3">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Ayan3</arg>
+</arguments>
+<status status="PASS" starttime="20210118 18:31:27.378" endtime="20210118 18:31:27.378"></status>
+</kw>
+<tags>
+<tag>Reg</tag>
+</tags>
+<status status="PASS" starttime="20210118 18:31:27.378" endtime="20210118 18:31:27.378" critical="yes"></status>
+</test>
+<test id="s1-t3" name="TC5">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Ayan5</arg>
+</arguments>
+<status status="PASS" starttime="20210118 18:31:27.378" endtime="20210118 18:31:27.378"></status>
+</kw>
+<tags>
+<tag>Reg</tag>
+</tags>
+<status status="PASS" starttime="20210118 18:31:27.378" endtime="20210118 18:31:27.378" critical="yes"></status>
+</test>
+<test id="s1-t4" name="Ishita1">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>zzz</arg>
+</arguments>
+<status status="PASS" starttime="20210118 18:31:27.393" endtime="20210118 18:31:27.393"></status>
+</kw>
+<status status="PASS" starttime="20210118 18:31:27.393" endtime="20210118 18:31:27.393" critical="yes"></status>
+</test>
+<test id="s1-t5" name="Ishita2">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>yyy</arg>
+</arguments>
+<status status="PASS" starttime="20210118 18:31:27.393" endtime="20210118 18:31:27.393"></status>
+</kw>
+<status status="PASS" starttime="20210118 18:31:27.393" endtime="20210118 18:31:27.393" critical="yes"></status>
+</test>
+<test id="s1-t6" name="Mahapatra1">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>aaa</arg>
+</arguments>
+<status status="PASS" starttime="20210118 18:31:27.393" endtime="20210118 18:31:27.393"></status>
+</kw>
+<status status="PASS" starttime="20210118 18:31:27.393" endtime="20210118 18:31:27.393" critical="yes"></status>
+</test>
+<test id="s1-t7" name="Mahapatra2">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>zzz</arg>
+</arguments>
+<status status="PASS" starttime="20210118 18:31:27.393" endtime="20210118 18:31:27.393"></status>
+</kw>
+<status status="PASS" starttime="20210118 18:31:27.393" endtime="20210118 18:31:27.393" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20210118 18:31:27.034" endtime="20210118 18:31:27.393"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="7" fail="0">Critical Tests</stat>
+<stat pass="7" fail="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="3" fail="0">Reg</stat>
+</tag>
+<suite>
+<stat pass="7" fail="0" id="s1" name="Hisu">Hisu</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
