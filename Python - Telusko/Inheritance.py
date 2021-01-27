@@ -1,4 +1,5 @@
 print("Hello")
+print("Bye")
 
 class A:
     def feature1(self):
