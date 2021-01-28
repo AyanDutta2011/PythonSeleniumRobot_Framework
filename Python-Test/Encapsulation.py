@@ -1,4 +1,5 @@
-#private methods can be access only within method
+# to restrict access to method and variables. Making private
+# private methods can be access only within method
 
 class myClass:
     def __display(self):
