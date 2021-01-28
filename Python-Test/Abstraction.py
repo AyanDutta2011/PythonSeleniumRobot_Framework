@@ -1,3 +1,6 @@
+# a method this is declared but doesn't have implementation.
+# it require subclass to provide implementation.
+
 from abc import ABC,abstractmethod
 
 class Animal(ABC):
