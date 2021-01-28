@@ -1,4 +1,5 @@
 # method overriding
+# means having two methods with same name but doing different task
 
 class Bank():
     def roi(self):
@@ -10,6 +11,7 @@ class HDFC(Bank):
 
 obj = HDFC()
 obj1 = Bank()
+
 c = obj.roi()
 print(c)
 

@@ -1,4 +1,5 @@
-#method overloading
+# method overloading
+# define a method in such a way that there are multiple ways to call it.
 
 class Human:
     def mobile(self,name=None):
