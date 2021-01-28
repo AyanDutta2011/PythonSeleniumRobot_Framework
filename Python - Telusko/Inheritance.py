@@ -1,6 +1,3 @@
-print("Hello")
-print("Bye")
-
 class A:
     def feature1(self):
         print("1 is working...")
@@ -15,14 +12,13 @@ class B(A):     #Single Level
 class C(B):        #Multi level
     def feature4(self):
         print("4 is working...")
-class E:        #Multi level
+class E:
     def feature6(self):
         print("6 is working...")
 
 class D(A,E):        #Multiple
     def feature5(self):
-        print("5 is working...")
+        print("5 is working....")
 
 d1 = D()
-
 d1.feature6()

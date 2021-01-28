@@ -8,4 +8,3 @@ def fact(n):
 result = fact(5)
 print(result)
 
-
