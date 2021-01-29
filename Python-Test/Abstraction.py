@@ -18,4 +18,3 @@ obj.eat()
 
 #obj1 = Animal()
 #obj1.eat()     #it will give error
-

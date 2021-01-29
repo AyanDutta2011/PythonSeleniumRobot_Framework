@@ -45,6 +45,7 @@ time.sleep(3)
 
 driver.get("https://www.youtube.com/")
 time.sleep(5)
+driver.get_screenshot_as_file("C:/Users/HP/Desktop/Interview/demo.png")
 
 window = driver.window_handles
 
@@ -53,5 +54,5 @@ for w in window:
     print(driver.title)
     if driver.title == "YouTube":
         driver.quit()
-
 print("Task Completed")
+
