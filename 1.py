@@ -54,6 +54,6 @@ for w in window:
     driver.switch_to.window(w)
     print(driver.title)
     if driver.title == "YouTube":
-        driver.quit()
+        driver.close()
 print("Task Completed")
 
