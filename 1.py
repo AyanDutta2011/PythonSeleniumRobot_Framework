@@ -6,6 +6,7 @@ import time
 
 driver = webdriver.Chrome()
 driver.set_page_load_timeout(15)
+driver.set_script_timeout(2)
 driver.get("https://www.amazon.in/")
 driver.maximize_window()
 driver.implicitly_wait(10)
