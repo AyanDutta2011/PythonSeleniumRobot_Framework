@@ -1,8 +1,8 @@
 lower = 0
-upper = 100
+upper = 50
 
 print("Prime numbers between", lower, "and", upper, "are:")
-
+count = 0
 for num in range(lower, upper + 1):
    # all prime numbers are greater than 1
    if num > 1:
@@ -10,5 +10,8 @@ for num in range(lower, upper + 1):
            if (num % i) == 0:
                break
        else:
+           count = count + 1
            print(num)
+
+print("No of prime numbers = ",count)
 
