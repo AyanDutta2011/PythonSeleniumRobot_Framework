@@ -4,7 +4,6 @@ Library     SeleniumLibrary
 Resource  C:/Users/11.robot
 Library  DataDriver     C:/Users/test.xlsx     sheet_name=Sheet1
 
-
 Suite Setup     Start
 Suite Teardown  End
 Test Setup      LaunchBrowser
@@ -167,3 +166,18 @@ LaunchBrowser
 CloseBrowser
     log to console  Completed
     close all browsers
+
+#How to run?
+#robot --include=sanity 14.robot    ---to execute particular type of test cases
+#robot -i sanity -i ff 14.robot     ---to execute multiple test cases
+#robot -e sanity 14.robot           ---to exclude a type of test cases /will execute without sanity type
+#robot -i sanity -e ff 14.robot     ---incule and exlude a type of test cases
+
+#How to run Test Suits
+#robot folder_name\     Multiple test cases will be executed one after another
+#robot folder_name\San*.robot    those testcase name starting eith San, will be executed one after another
+
+#How to execute multiple test cases Parallelly
+#pip install robotframework-pabot
+#pabot --processes 2 folder_name\*.robot
+#pabot --processes 2 --outputdir Results folder_name\*.robot    #to store o/p with in a different folder (folder should be created automatically)
