@@ -1,7 +1,7 @@
 import json
 
 # some JSON:
-x =  '{ "name":"John", "age":30, "city":"New York"}'
+x ='{ "name":"John", "age":30, "city":"New York"}'
 
 # parse x:
 y = json.loads(x)
@@ -26,3 +26,5 @@ for i in data['emp_details']:
 
 # Closing file
 f.close()
+
+
