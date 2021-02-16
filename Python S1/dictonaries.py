@@ -8,7 +8,6 @@ Dict are optimized for retrieving data.
 We must know the key to retrieve the value.
 '''
 
-
 #Create and print a dictionary:
 thisdict = {
   "brand": "Ford",
