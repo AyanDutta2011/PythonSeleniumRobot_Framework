@@ -159,7 +159,7 @@ End
 
 LaunchBrowser
     open browser    ${url}  ${browser}
-    #miniimize browser window
+    miniimize browser window
     sleep   1
     maximize browser window
 
