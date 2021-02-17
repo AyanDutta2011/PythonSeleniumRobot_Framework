@@ -7,6 +7,10 @@ for i in range(2):
     a.append(c)
 print(a)
 
-replace = list(map(lambda n: n if n!= 5 else "Replaced", a))
+replace = list(map(lambda n: n if n != 5 else "Replaced", a))
 print(replace)
+
+a.reverse()
+print(a)
+
 
