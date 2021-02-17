@@ -9,7 +9,7 @@ y = json.loads(x)
 # the result is a Python dictionary:
 print(y["age"])
 
-
+#############################################################
 import json
 
 # Opening JSON file
