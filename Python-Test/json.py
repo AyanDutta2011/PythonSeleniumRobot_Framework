@@ -1,13 +1,13 @@
 import json
 
-# some JSON:
-x ='{ "name":"John", "age":30, "city":"New York"}'
-
-# parse x:
+x = '{"name":"Ayan Dutta", "Email":"ayand777@gmail.com", "age":24}'
 y = json.loads(x)
-
-# the result is a Python dictionary:
 print(y["age"])
+
+a = {"name":"Aparna Dutta", "Email":"aparna@gmail.com", "age":50}
+b = json.dumps(a)
+c = json.loads(b)
+print(c["age"])
 
 #############################################################
 import json
