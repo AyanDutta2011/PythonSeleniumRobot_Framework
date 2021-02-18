@@ -1,9 +1,9 @@
 #for read
 
 f = open("C:\\Users\HP\Desktop\Imp\demo.txt","r")
-print(f.read())  #it will read the complete file
-print(f.read(5)) #it will read based on alphabets
-print(f.readline()) #it will read one line
+print(f.read())         #it will read the complete file
+print(f.read(5))        #it will read based on alphabets
+print(f.readline())     #it will read one line
 print(f.readlines())    #it will read all the lines
 
 #for write
