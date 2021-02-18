@@ -18,5 +18,5 @@ f = open("myfile.txt", "x")   #for create file
 
 #for delete file
 import os
-os.remove("demofile.txt") #remove file
+os.remove("demofile.txt") # remove file
 os.rmdir("myfolder")    # remove folder
