@@ -1,10 +1,10 @@
 import json
 
-x = '{"name":"Ayan Dutta", "Email":"ayand777@gmail.com", "age":24}'
+x = '{"name":"Ayan Dutta", "Email":"ayand777@gmail.com", "age":24}'  # jason file
 y = json.loads(x)
 print(y["age"])
 
-a = {"name":"Aparna Dutta", "Email":"aparna@gmail.com", "age":50}
+a = {"name":"Aparna Dutta", "Email":"aparna@gmail.com", "age":50}   # dictationary
 b = json.dumps(a)
 c = json.loads(b)
 print(c["age"])
