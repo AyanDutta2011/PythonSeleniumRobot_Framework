@@ -16,7 +16,7 @@ ${browser}      chrome
 *** Test Cases ***
 Time/Speed
     [Tags]  Sanity
-    sleep 5
+    sleep   5
     set selenium speed  5
     set selenium timeout    5
     set selenium implicit wait  5
